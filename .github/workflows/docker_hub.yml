@@ -25,3 +25,5 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.IMAGE_REPOSITORY }}:${{ secrets.IMAGE_TAG }}
+          build-args: |
+            GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
