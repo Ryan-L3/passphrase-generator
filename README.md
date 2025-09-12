@@ -1,4 +1,5 @@
 # Themed Passphrase Generator
+Check it out here: [https://passphrase-generator.ryanle.ca/](https://passphrase-generator.ryanle.ca/)
 
 A Next.js web application that generates secure, memorable passphrases based on themes of your choice using Google's Gemini AI.
 
